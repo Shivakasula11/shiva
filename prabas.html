@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let box=document.createElement("div")
+        box.style.border="2px solid red";
+          box.style.height="380px"
+          box.style.width="250px"
+          box.style.borderRadius="30px"
+           box.style.backgroundColor="violet"
+
+          document.body.appendChild(box)
+
+          let img1=document.createElement("img")
+          img1.setAttribute("src","ganeshimg.jpg")
+          img1.style.height="150px"
+          img1.style.width="120px"
+        //   img1.style.padding="60px"
+           img1.style.marginLeft="60px"
+            img1.style.marginTop="30px"
+             img1.style.borderRadius="20px"
+            //  document.body.appendChild(img1)
+             box.appendChild(img1)
+
+
+             let name1=document.createElement("h2")
+             name1.innerText=" Name:-k.Shiva"
+             name1.style.color="black"
+             name1.style.marginLeft="60px"
+             box.appendChild(name1)
+
+             
+             let name2=document.createElement("h2")
+             name2.innerText="Batch:-14r"
+             name2.style.marginLeft="60px"
+             name2.style.color="black"
+             box.appendChild(name2)
+
+             let name3=document.createElement("h3")
+             name3.innerText=" Phno:-6301993194"
+             name3.style.color="black"
+             name3.style.marginLeft="60px"
+             box.appendChild(name3)
+
+    </script>
+</body>
+</html>
